@@ -125,6 +125,6 @@ class Database{
         return $check;
     }
 }
-//comment database 
+//Second comment database
 
 ?>
