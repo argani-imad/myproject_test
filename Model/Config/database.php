@@ -125,4 +125,6 @@ class Database{
         return $check;
     }
 }
+//comment database 
+
 ?>
