@@ -1,0 +1,50 @@
+/** 4th pagination **/
+/* resource: http://pixelsdaily.com/resources/photoshop/psds/flat-pagination-interface/ */
+.paginate.pag4 { /* fourth page styles */ 
+    font-size: 10px;
+  float: left;
+      margin-top: 2%;
+}
+
+.paginate.pag4 li { font-weight: bold; }
+
+.paginate.pag4 li a {
+  display: block;
+  float: left;
+  color: #fff;
+  text-decoration: none;
+  padding: 9px 12px;
+  margin-right: 6px;
+  border-radius: 16px;
+  background: #363842;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.paginate.pag4 li a:hover {
+background: #777;
+}
+.paginate.pag4 li a:active {
+  -webkit-box-shadow: 1px 1px 3px -1px rgba(0,0,0, .55);
+  -moz-box-shadow: 1px 1px 3px -1px rgba(0,0,0, .55);
+  box-shadow: 1px 1px 3px -1px rgba(0,0,0, .55);
+}
+
+.paginate.pag4 li.navpage a {
+  padding: 9px 13px;
+  background: #777;
+  color: #fff;
+}
+.paginate.pag4 li.navpage a:hover {
+  background: #486f43;
+}
+
+.paginate.pag4 li.single, .paginate.pag4 li.current {
+  display: block;
+  float: left;
+  padding: 9px 12px;
+    margin-right: -10px;
+  border-radius: 16px;
+  color: #607c5d;
+
+}
